@@ -7,16 +7,23 @@
 </head>
 <body>
   <div id="main-content">
-    <h1>Task Lister Lite™️</h1>
+    <h1>BIG 'OL LIST</h1>
 
     <form id="create-task-form" action="" method="POST">
-      <label for="new-task-description">Task description:</label>
+      <label for="new-task-description">Whatcha gotta do?:</label>
       <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
-      <input type="submit" value="Create New Task">
+      <input type ="text" id = "due-date" name = "due-date" placeholder ="due-date">
+        <select id = "dropdown">
+          <option>DO IT NOW</option>
+          <option>Nothing better to do</option>
+          <option>This is tomorrow's problem</option>
+        </select>
+      
+      <input type="submit" value="Add it the list mothafucka!">
     </form>
 
     <div id="list">
-      <h2>My Todos:</h2>
+      <h2>Get this shit done:</h2>
       <ul id="tasks">
       </ul>
     </div>

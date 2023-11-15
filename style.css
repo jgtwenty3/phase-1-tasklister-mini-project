@@ -7,11 +7,11 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(rgb(248, 250, 248), rgb(5, 4, 0));
 }
 
 button {
-  font-size: 7px;
+  font-size: 10px;
 }
 
 #main-content {
@@ -20,8 +20,8 @@ button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid #b70808;
+  background: rgba(192, 19, 19, 0.3);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
@@ -33,5 +33,5 @@ button {
   background: rgba(255, 255, 255, 0.75);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
-  box-shadow: 2px 5px 5px #333;
+  box-shadow: 2px 5px 5px #d20c0c;
 }
